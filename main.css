@@ -1,0 +1,189 @@
+body, p, h1, h2, h3, h4 ul {
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1170px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.header .header-text {
+  color: #774E2E;
+  line-height: 130%;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header .header-text:first-child {
+  margin-right: 50px;
+}
+
+.content {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.section-1 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.section-1 .yummy-desc {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 .yummy-desc .desc-heading {
+  font-weight: 800;
+  font-size: 110px;
+  line-height: 100%;
+  letter-spacing: 5.5px;
+}
+
+.word-orange {
+  color: #F37F34;
+}
+.word-brown {
+  color: #774E2E;
+}
+.section-1 .yummy-desc .desc-text {
+  margin-top: 40px;
+  line-height: 150%;
+  font-size: 16px;
+  color: #774E2E;
+}
+.section-1 .yummy-desc .desc-button {
+  margin-top: 72px;
+}
+.section-1 .yummy-desc .desc-button .desc-link {
+  padding: 22px 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  background-color: #774E2E;
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.section-2 {
+  margin-top: 150px;
+}
+
+#favorite {
+  background-color: #FFF9EA;
+}
+
+.section-2 .cards-heading {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0.72px;
+  text-align: center;
+  padding: 150px 0 70px 0;
+}
+
+.section-2 .cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+  color: #774E2E;
+}
+
+.section-2 .cards .card {
+  background-color: #fff;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-2 .cards .card .card-heading {
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 36px 0 15px 0;
+}
+
+.section-2 .cards .card .card-text {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 150%;
+  margin: 0 20px 36px 20px;
+}
+
+.section-3 {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+}
+.section-3 .yummy-advice {
+  color: #774E2E;
+}
+
+.section-3 .yummy-advice .advice-heading {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0.72px;
+  margin-bottom: 30px;
+}
+
+.section-3 .yummy-advice .advice-text {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+  line-height: 150%;
+  margin-bottom: 60px;
+}
+
+.section-3 .yummy-advice .recomend-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.24px;
+}
+
+.section-3 .yummy-advice .recomend-list {
+  margin-top: 20px;
+}
+
+.section-3 .yummy-advice .recomend-list .recomend-item {
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.footer {
+  margin-top: 150px;
+  background-color: #774E2E;
+  padding: 20px 0;
+}
+
+.footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-container .footer-text {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+  color: #fff; 
+}
